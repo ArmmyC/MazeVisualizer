@@ -1,0 +1,217 @@
+/* =========================================================
+   CUSTOM FONT DECLARATIONS
+   ========================================================= */
+
+/* KNIGHTWARRIOR */
+@font-face {
+    font-family: 'Knight Warrior';
+    src: url('../fonts/KnightWarrior-w16n8.otf'); 
+}
+
+/* NEXORA */
+@font-face {
+    font-family: 'NEXORA';
+    src: url('../fonts/Nexora-6RMrM.otf');
+}
+
+/* SERPENTINE */
+@font-face {
+    font-family: 'Serpentine';
+    src: url('../fonts/Serpentine-yw3n3.ttf');
+}
+
+/* ROKKITT */
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('../fonts/Rokkitt-Yl48.ttf');
+}
+
+/* COMEBACK HOME */
+@font-face {
+    font-family: 'Comeback Home';
+    src: url('../fonts/CombackHomeRegular-jEMd9.ttf');
+}
+
+/* AXUBIES */
+@font-face {
+    font-family: 'Axubies';
+    src: url('../fonts/Axubies-KVa5X.otf');
+}
+
+/* LIGER */
+@font-face {
+    font-family: 'Liger';
+    src: url('../fonts/LigerRegular-OGYE4.ttf');
+}
+
+/* =========================================================
+   STYLE
+   ========================================================= */
+
+
+/* =========================================================
+   MAZE DISPLAY UI
+   ========================================================= */
+.maze-panel {
+    background-color: #1f1f1f;
+    -fx-background-color: #1f1f1f; 
+    background-image: url("../image/grid_pattern.png");
+    -fx-background-image: url("../image/grid_pattern.png"); 
+    background-size: 18px;
+    -fx-background-size: 18px;
+    background-repeat: repeat;
+    -fx-background-repeat: repeat;
+}
+
+.maze-panel .viewport {
+    background-color: transparent;
+    -fx-background-color: transparent; 
+}
+
+.maze-display-label{
+    -fx-text-fill: #eeeeee58; 
+    font-weight: bold;
+    -fx-font-weight: bold;
+    font-family: 'NEXORA';
+    -fx-font-family: 'NEXORA';
+}
+
+/* =========================================================
+   CONTROL PANEL UI
+   ========================================================= */
+.control-panel {
+    background-color: rgb(42, 42, 42);
+    -fx-background-color: rgb(42, 42, 42); 
+    -fx-effect: dropshadow(
+        three-pass-box, 
+        rgba(0, 0, 0, 0.507), 
+        30, 
+        0, 
+        0, 
+        0
+    );
+}
+
+.main-label {
+    -fx-text-fill: #eeeeee; 
+    font-weight: bold;
+    -fx-font-weight: bold;
+    font-family: 'NEXORA';
+    -fx-font-family: 'NEXORA';
+}
+
+/* =========================================================
+   MENU BUTTON / CHOOSER
+   ========================================================= */
+.chooser {
+    background-color: #161616;
+    -fx-background-color: #161616; 
+    -fx-background-radius: 10px; 
+}
+
+.chooser .label {
+    font-family: 'NEXORA';
+    -fx-font-family: 'NEXORA';
+    font-weight: bold;
+    -fx-font-weight: bold;
+    -fx-text-fill: #8f8f8f;      
+}
+
+.chooser:hover {
+    background-color: #717171;
+    -fx-background-color: #717171;
+}
+
+.context-menu {
+    background-color: #3a3a3a;
+    -fx-background-color: #3a3a3a; 
+    -fx-background-radius: 10px;
+}
+
+.menu-item {
+    padding: 5px 20px 5px 10px;
+    -fx-padding: 5px 20px 5px 10px;
+}
+
+.menu-item .label {
+    -fx-text-fill: #eeeeee; 
+    font-family: 'NEXORA';
+    -fx-font-family: 'NEXORA';
+    font-size: 14px;
+    -fx-font-size: 14px;
+}
+
+.menu-item:hover {
+    background-color: #555555;
+    -fx-background-color: #555555;
+}
+
+.menu-item:focused {
+    background-color: #5e5e5e;
+    -fx-background-color: #5e5e5e;
+}
+
+/* =========================================================
+   SEPARATOR
+   ========================================================= */
+.separator > .line {
+    background-color: #303030;
+    -fx-background-color: #303030;
+    -fx-pref-height: 2px;
+    border-width: 0;
+    -fx-border-width: 0;
+}
+
+/* =========================================================
+   START BUTTON
+   ========================================================= */
+.button {
+    background-color: #008414;
+    -fx-background-color: #008414; 
+    -fx-text-fill: #eeeeee;
+    font-family: "NEXORA";
+    -fx-font-family: "NEXORA";
+}
+
+.button:hover {
+    background-color: #73f086;
+    -fx-background-color: #73f086; 
+}
+
+.button:pressed {
+    background-color: #1e8449;
+    -fx-background-color: #1e8449;
+}
+
+/* =========================================================
+   GENETIC ALGORITHM PARAMETER FIELD
+   ========================================================= */
+.param-text-field {
+    -fx-text-fill: #212121;
+    font-family: "NEXORA";
+    -fx-font-family: "NEXORA";
+    -fx-control-inner-background: #e4e4e4;
+}
+
+.param-text-field:focused {
+    border-color: #00AACC;
+    -fx-border-color: #00AACC;
+    -fx-effect: dropshadow(gaussian, #00AACC, 5, 0.0, 0, 0);
+}
+
+/* =========================================================
+   STAT BOX UI
+   ========================================================= */
+
+.stat-box {
+    background-color: #1f1f1f;
+    -fx-background-color: #1f1f1f;
+}
+
+.stat-value-label {
+    font-weight: bold;
+    -fx-font-weight: bold;
+    font-family: "NEXORA";
+    -fx-font-family: "NEXORA";
+    -fx-text-fill: #4DD0E1; 
+}
