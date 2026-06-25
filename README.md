@@ -18,9 +18,6 @@ MazeVisualizer is a JavaFX desktop application for exploring how different pathf
 
 The project currently compares three approaches: Bidirectional Dijkstra, A* with Manhattan-distance heuristic, and a configurable Genetic Algorithm.
 
-> [!NOTE]
-> The repository is still named `MazeVisualizer`, but **PathLens** is a shorter project name that better fits the app's purpose: inspecting pathfinding behavior visually.
-
 ## Overview
 
 ```text
@@ -34,7 +31,7 @@ Algorithm layer
   Shared strategy interface with Dijkstra, A*, and Genetic Algorithm implementations
 ```
 
-PathLens is useful for learning, demos, and quick visual comparisons between deterministic shortest-path methods and an evolutionary search approach.
+MazeVisualizer is useful for learning, demos, and quick visual comparisons between deterministic shortest-path methods and an evolutionary search approach.
 
 ## Features
 
