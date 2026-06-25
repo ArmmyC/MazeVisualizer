@@ -1,7 +1,7 @@
 <!-- prettier-ignore -->
 <div align="center">
 
-# PathLens
+# MazeVisualizer
 
 *A JavaFX desktop app for visualizing weighted-maze pathfinding algorithms.*
 
@@ -14,7 +14,7 @@
 
 </div>
 
-PathLens is a JavaFX desktop application for exploring how different pathfinding algorithms behave on weighted mazes. It loads bundled maze files, draws the grid, highlights the returned path, and reports total path cost, explored steps, and execution time.
+MazeVisualizer is a JavaFX desktop application for exploring how different pathfinding algorithms behave on weighted mazes. It loads bundled maze files, draws the grid, highlights the returned path, and reports total path cost, explored steps, and execution time.
 
 The project currently compares three approaches: Bidirectional Dijkstra, A* with Manhattan-distance heuristic, and a configurable Genetic Algorithm.
 
